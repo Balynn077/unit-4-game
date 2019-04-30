@@ -1,0 +1,52 @@
+body{
+
+    background-color: lightblue;
+}
+
+div{
+	background-color:white;
+	margin: 10px;
+	width: 25%
+}
+
+div{
+	border: solid 2px white;
+	padding: 10px;
+}
+
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+
+h1{
+	font-size: 20pt;
+}
+
+div.header, div.gems{
+	background-color: white;
+}
+
+div.header, div.instructions{
+	width: 55%;
+}
+
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 20%;
+	height: 60px;
+}
+
+.userTotal{
+	width: 20%;
+	height: 60px;
+}
+
+.gems{
+	clear: both;
+}
